@@ -1,0 +1,74 @@
+.logo {
+  height: 50px;
+}
+
+nav{
+  position: "fixed"; 
+          top: 0;
+          left: 0;
+          right: 0;
+          z-index:  1000;
+          background-color: "rgba(255, 255, 255, 0.8)";
+          backdrop-filter: "blur(8px)"
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.navbar ul li a:hover {
+  color: #ffd700;
+}
+
+
+Form{
+  border: 1px solid #195594;
+ 
+}
+
+.forget-pwd{
+  color: #195594;
+  text-decoration: none;
+}
+
+
+h2,h1,h4 {
+ 
+  font-weight: bold;
+  color: #487789;
+  
+}
+
+h5{
+  color: #487789;
+}
+
+.about-us  {
+  color: #5694AC;
+}
+
+button,.btn{
+  background-color: #195594;
+}
+
+button:hover,.btn:hover{
+  background-color: #5694AC;
+  color: black;
+}
+
+.content-form{
+  width: 450px;
+  background-color: white;
+  margin: 130px;
+}
+
